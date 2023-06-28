@@ -1,0 +1,37 @@
+.page-content {
+    &.games {
+        background-color: #040828;
+
+        .section-1 {
+            .layout-width {
+                padding-top: 6rem;
+                padding-bottom: 32rem;
+
+                .spacing {
+                    margin-top: 12rem;
+
+                    .grid-3-row {
+                        > div {
+                            display: flex;
+                            justify-content: space-between;
+
+                            a {
+                                @media screen and (max-height: 899px) {
+                                    &:first-child {
+                                        margin-right: 3rem;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    &:nth-child(2) {
+                        margin-top: 5rem;
+                    }
+
+                }
+
+            }
+        }
+    }
+}

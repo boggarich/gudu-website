@@ -1,0 +1,33 @@
+footer .layout-width {
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+  margin-top: -1px;
+}
+footer .layout-width a.text-white:hover {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+footer .layout-width .grid-3-col {
+  margin-bottom: 8rem;
+}
+footer .layout-width .grid-3-col .footer-logo {
+  height: fit-content;
+}
+footer .layout-width .grid-3-col .social-media-handles {
+  margin-top: 1.5rem;
+}
+footer .layout-width .grid-3-col .social-media-handles a:not(:first-child) {
+  margin-left: 3.125rem;
+}
+footer .layout-width .grid-3-col ul {
+  list-style: none;
+  padding-left: 0px;
+}
+footer .layout-width .grid-3-col ul li {
+  margin-bottom: 2.5rem;
+}
+footer .layout-width .grid-3-col ul li a {
+  color: #fff;
+}
+footer .layout-width .grid-3-col ul li a:hover {
+  color: rgba(255, 255, 255, 0.7);
+}

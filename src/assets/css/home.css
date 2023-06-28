@@ -1,0 +1,28 @@
+.page-content.home .section-4 .layout-width {
+  padding-top: 15rem;
+  padding-bottom: 18rem;
+}
+.page-content.home .section-4 .layout-width .icon {
+  margin-left: 2.5rem;
+}
+.page-content.home .section-4 .layout-width .header-xl.has-underline::after {
+  margin-top: 0.325rem;
+}
+.page-content.home .section-4 .layout-width .grid-2-row {
+  margin-bottom: 5.5rem;
+}
+.page-content.home .section-3 {
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+}
+.page-content.home .section-3 .layout-width {
+  padding-top: 148px;
+  padding-bottom: 25rem;
+}
+.page-content.home .section-3 .layout-width .spacing {
+  margin-top: 12rem;
+}
+.page-content.home .section-2 .layout-width {
+  padding-top: 8rem;
+  padding-bottom: 16rem;
+}

@@ -1,0 +1,9 @@
+<svg width="1512" height="4185" viewBox="0 0 1512 4185" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ position: 'absolute' }}>
+
+    <clipPath id="mask" clipPathUnits="objectBoundingBox" transform="scale(0.003033 0.0116279)">
+
+        <path d="M0 50C0 22.3857 22.3858 0 50 0H1462C1489.61 0 1512 22.3858 1512 50V3960.79C1512 3983.81 1496.28 4003.86 1473.92 4009.35L765.947 4183.07C758.099 4184.99 749.902 4184.99 742.056 4183.05L38.0248 4009.38C15.6926 4003.87 0 3983.84 0 3960.84V50Z" fill="black"/>
+
+    </clipPath>
+
+</svg>

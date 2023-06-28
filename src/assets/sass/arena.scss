@@ -1,0 +1,35 @@
+.page-content.arena {
+
+    .section-3 {
+        .layout-width {
+            .spacing {
+                padding-bottom: 10rem;
+
+                &:nth-child(3) {
+                    padding-top: 9.5rem;
+                }
+            }
+
+            .header-lg {
+                margin-bottom: 5rem;
+            }
+
+            .header-xl  {
+                margin-bottom: 6rem;
+            }
+        }
+    }
+
+    .section-2 {
+        .layout-width {
+            padding-top: 8rem;
+            padding-bottom: 5rem;
+
+            .header-xl {
+                line-height: 97px;
+            }
+
+        }
+    }
+
+}

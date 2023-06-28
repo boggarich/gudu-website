@@ -1,0 +1,52 @@
+footer {
+
+    .layout-width {
+        padding-top: 5rem;
+        padding-bottom: 3rem;
+        margin-top: -1px;
+
+        a {
+            &.text-white {
+                &:hover {
+                    color:rgba(255, 255, 255, 0.7) !important;
+                }
+            }
+        }
+
+        .grid-3-col {
+            margin-bottom: 8rem;
+
+            .footer-logo {
+                height: fit-content;
+            }
+
+            .social-media-handles {
+                margin-top: 1.5rem;
+
+                a:not(:first-child) {
+                    margin-left: 3.125rem;
+                }
+            }
+
+            ul {
+                list-style: none;
+                padding-left: 0px;
+
+                li {
+                    margin-bottom: 2.5rem;
+
+                    a {
+                        color: #fff;
+
+                        &:hover {
+                            color: rgba(255, 255, 255, 0.7);
+                        }
+                    }
+                }
+            }
+
+        }
+
+    }
+
+}

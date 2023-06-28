@@ -1,0 +1,22 @@
+.page-content.games {
+  background-color: #040828;
+}
+.page-content.games .section-1 .layout-width {
+  padding-top: 6rem;
+  padding-bottom: 32rem;
+}
+.page-content.games .section-1 .layout-width .spacing {
+  margin-top: 12rem;
+}
+.page-content.games .section-1 .layout-width .spacing .grid-3-row > div {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-height: 899px) {
+  .page-content.games .section-1 .layout-width .spacing .grid-3-row > div a:first-child {
+    margin-right: 3rem;
+  }
+}
+.page-content.games .section-1 .layout-width .spacing:nth-child(2) {
+  margin-top: 5rem;
+}
