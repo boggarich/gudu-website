@@ -18,6 +18,8 @@
 
         .section-5 {
             .layout-width {
+                padding-bottom: 14rem;
+
                 .spacing {
 
                     &:nth-child(3) { 
@@ -39,7 +41,7 @@
 
                         .grid-2-row {
                             row-gap: 38px;
-                            margin-top: 4rem;
+                            margin-top: 2.5rem;
                         }
 
                     }
@@ -47,8 +49,12 @@
                     &:nth-child(2) {
                         padding-top: 5rem;
 
+                        .grid-2-row {
+                            row-gap: 38px;
+                        }
+
                         > div:not(.image-container) {
-                            margin-top: 4rem;
+                            margin-top: 2.5rem;
                         }
                     }
 
@@ -65,6 +71,17 @@
 
         .section-3 {
             .layout-width {
+                padding-bottom: 12rem;
+
+                svg {
+                    @media screen and (max-width: 1367px) {
+                        max-width: 80px;
+
+                        + p {
+                            width: 65%;
+                        }
+                    }
+                }
 
                 .header-lg {
                     margin-bottom: 4.5rem;
@@ -72,8 +89,11 @@
 
                 .bg-clip {
                     position: relative;
-                    clip-path: url('#our-values-mask');
                     padding: 3rem 2rem 10rem 2rem;
+
+                    @media screen and (min-width: 401px) {
+                        clip-path: url('#our-values-mask');
+                    }
 
                     &.grid-3-col {
                         @media screen and (min-width: 992px) {

@@ -29,10 +29,24 @@ export default class Header extends React.Component {
                         <ul className="d-inline-flex align-items-center mb-0">
                             
                             <li>
+                                <NavLink to="/" className={({ isActive, isPending }) => {
+                                    return isActive ? "active" : isPending ? "pending" : "";
+                                }} reloadDocument>
+                                    Home
+                                </NavLink>
+                            </li>
+                            <li>
                                 <NavLink to="/about" className={({ isActive, isPending }) => {
                                     return isActive ? "active" : isPending ? "pending" : "";
                                 }} reloadDocument>
                                     About
+                                </NavLink>
+                            </li>
+                            <li>
+                                <NavLink to="/our-vision" className={({ isActive, isPending }) => {
+                                    return isActive ? "active" : isPending ? "pending" : "";
+                                }} reloadDocument>
+                                    Our Vision
                                 </NavLink>
                             </li>
                             <li>
@@ -42,16 +56,8 @@ export default class Header extends React.Component {
                                     Games
                                 </NavLink>
                             </li>
-                            <li>
-                                <NavLink to="/arena/gudu-run" className={({ isActive, isPending }) => {
-                                    return isActive ? "active" : isPending ? "pending" : "";
-                                }} reloadDocument>
-                                    Arena
-                                </NavLink>
-                            </li>
-                        
-                            <li><NavLink to="/gamification">Gamification</NavLink></li>
-                            <li><NavLink to="/contact">Contact</NavLink></li>
+                            <li><NavLink to="/sponsors" reloadDocument>Sponsors</NavLink></li>
+                            <li><NavLink to="/contact" reloadDocument>Contact</NavLink></li>
                         </ul>
 
                     </nav>
@@ -77,11 +83,10 @@ export default class Header extends React.Component {
                                     About
                                 </NavLink>
                             </li>
-                            <li><NavLink to="/games">Games</NavLink></li>
-                            <li><NavLink to="/arena">Arena</NavLink></li>
-                            <li><NavLink to="/game-centers">Game Centers</NavLink></li>
-                            <li><NavLink to="/corporate-gamification">Corporate Gamification</NavLink></li>
-                            <li><NavLink to="/contact">Contact</NavLink></li>
+                            <li><NavLink to="/our-vision" reloadDocument>Our Vision</NavLink></li>
+                            <li><NavLink to="/games" reloadDocument>Games</NavLink></li>
+                            <li><NavLink to="/sponsors" reloadDocument>Sponsors</NavLink></li>
+                            <li><NavLink to="/contact" reloadDocument>Contact</NavLink></li>
                         </ul>
 
                     </nav>

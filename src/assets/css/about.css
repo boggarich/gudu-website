@@ -8,6 +8,9 @@
 .page-content.about .section-6 .layout-width .profile-container {
   margin-bottom: 3rem;
 }
+.page-content.about .section-5 .layout-width {
+  padding-bottom: 14rem;
+}
 .page-content.about .section-5 .layout-width .spacing:nth-child(3) {
   padding-top: 12rem;
 }
@@ -20,17 +23,31 @@
 }
 .page-content.about .section-5 .layout-width .spacing:nth-child(3) .grid-2-row {
   row-gap: 38px;
-  margin-top: 4rem;
+  margin-top: 2.5rem;
 }
 .page-content.about .section-5 .layout-width .spacing:nth-child(2) {
   padding-top: 5rem;
 }
+.page-content.about .section-5 .layout-width .spacing:nth-child(2) .grid-2-row {
+  row-gap: 38px;
+}
 .page-content.about .section-5 .layout-width .spacing:nth-child(2) > div:not(.image-container) {
-  margin-top: 4rem;
+  margin-top: 2.5rem;
 }
 .page-content.about .section-4 .layout-width {
   padding-top: 12rem;
   padding-bottom: 20rem;
+}
+.page-content.about .section-3 .layout-width {
+  padding-bottom: 12rem;
+}
+@media screen and (max-width: 1367px) {
+  .page-content.about .section-3 .layout-width svg {
+    max-width: 80px;
+  }
+  .page-content.about .section-3 .layout-width svg + p {
+    width: 65%;
+  }
 }
 .page-content.about .section-3 .layout-width .header-lg {
   margin-bottom: 4.5rem;

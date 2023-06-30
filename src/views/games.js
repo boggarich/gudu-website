@@ -12,7 +12,7 @@ export default class Games extends React.Component {
             <div className="page-content games">
 
                 <PageHero bgVideo="production ID-4568863.mp4">
-                    <h1 className='page-hero-header'>Experience <span className='icon'><img src={ process.env.PUBLIC_URL + "/assets/img/GUDUlogo2.png" } /></span></h1>
+                    <h1 className='page-hero-header'>Experience our reward-based <span className="text-yellow">games</span>.</h1>
                 </PageHero>
 
                 <section className='section-1'>
@@ -27,16 +27,22 @@ export default class Games extends React.Component {
 
                                 <VideoContainer videoUrl="Crimerunner - Official Announcement Trailer.mp4" />
 
-                                <div className='grid-3-row mt-5'>
+                                <div className='grid-3-row mt-5 headerLgWithParagraphWithButton'>
 
                                     <h1 className='header-lg text-white has-underline underline-gradient'>Gudu Run</h1>
-                                    <p className='text-white f-32 fw-500'>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus gravida orci felis, vitae hendrerit lacus molestie eu. Integer quis turpis sed magna blandit sollicitudin. Proin non pharetra mauris. Cras eu metus lobortis, euismod mauris sit amet, dictum nunc. Vivamus ultrices nisl felis, sed posuere massa pretium at. Proin at risus non augue dignissim iaculis. Integer semper tellus a ipsum lacinia, vulputate tristique sapien facilisis. <br></br><br></br>
+                                    
+                                    <div className="mt-0">
+                                        <p className='text-white f-32 fw-500'>
+                                        You are dropped on the street of Gudu. Surrounded by millions of coins, chased by 1000s of monsters who are there to kill you, eat up the coins and prevent you from surviving. You have to collect as many coins as you can. <br></br><br></br>
+                                        </p>
+                                        <ul>
+                                            <li className='text-white f-32 fw-500'>Collect millions of coins from the street by running.</li>
+                                            <li className='text-white f-32 fw-500'>Your coins collected are converted to Gudu Tokens, which is the in-game virtual currency.</li>
+                                            <li className='text-white f-32 fw-500'>Visit the Gudu Marketplace and use your Gudu Tokens to redeem prizes from the market place.</li>
+                                        </ul>
+                                    </div>
 
-                                    Gudu run is an endless runner game available on mobile. Play our runner game, participate in our live contests and earn cash through Gudu coins.
-                                    </p>
-
-                                    <div className='d-flex w-100'>
+                                    <div className='grid-2'>
                                         <Link to="">
                                             <img src={ process.env.PUBLIC_URL + 'assets/svg/AppStore.svg' } />
                                         </Link>
@@ -51,45 +57,21 @@ export default class Games extends React.Component {
 
                         <div className='spacing'>
                             <div className='grid-2 column-gap-lg'>
-                                <div className='grid-3-row mt-5'>
-
-                                    <h1 className='header-lg text-white has-underline underline-gradient'>Gudu War</h1>
-                                    <p className='text-white f-32 fw-500'>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus gravida orci felis, vitae hendrerit lacus molestie eu. Integer quis turpis sed magna blandit sollicitudin. Proin non pharetra mauris. Cras eu metus lobortis, euismod mauris sit amet, dictum nunc. Vivamus ultrices nisl felis, sed posuere massa pretium at. Proin at risus non augue dignissim iaculis. Integer semper tellus a ipsum lacinia, vulputate tristique sapien facilisis.<br></br><br></br>
-
-                                    Win territory and conquer in our modern warfare simulation game available on mobile. Play individual or co-op modes and have unlimited entertainment
-                                    </p>
-                                    <div className='d-flex w-100'>
-                                        <Link to="">
-                                            <img src={ process.env.PUBLIC_URL + 'assets/svg/AppStore.svg' } />
-                                        </Link>
-                                        <Link to="">
-                                            <img src={ process.env.PUBLIC_URL + 'assets/svg/PlayStore.svg' } />
-                                        </Link>
-                                    </div>
-
-
-                                </div>
-                                
-                                <VideoContainer videoUrl="Tom Clancys Ghost Recon Breakpoint- New Karambit Takedown.mp4" className="justify-self-lg-end"/>
-
-                            </div>
-                        </div>
-
-                        <div className='spacing'>
-                            <div className='grid-2 column-gap-lg'>
-                                
-                                <VideoContainer videoUrl="Need for Speed Heat Official Launch Trailer.mp4" />
-
-                                <div className='grid-3-row mt-5'>
+                                <div className='grid-3-row mt-5 headerLgWithParagraphWithButton'>
 
                                     <h1 className='header-lg text-white has-underline underline-gradient'>Gudu FX</h1>
-                                    <p className='text-white f-32 fw-500'>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus gravida orci felis, vitae hendrerit lacus molestie eu. Integer quis turpis sed magna blandit sollicitudin. Proin non pharetra mauris. Cras eu metus lobortis, euismod mauris sit amet, dictum nunc. Vivamus ultrices nisl felis, sed posuere massa pretium at. Proin at risus non augue dignissim iaculis. Integer semper tellus a ipsum lacinia, vulputate tristique sapien facilisis.<br></br><br></br>
+                                    <div className="mt-0">
+                                        <p className='text-white f-32 fw-500'>
+                                        Your car is racing through the street of Gudu. Surrounded by millions of coins, chased by 1000 of monsters who are there to kill you, eat up the coins and prevent you from surviving. You have to collect as many coins as you can <br></br><br></br>
+                                        </p>
+                                        <ul>
+                                            <li className='text-white f-32 fw-500'>Collect millions of coins from the street by driving.</li>
+                                            <li className='text-white f-32 fw-500'>Your coins collected are converted to Gudu Tokens, which is the in-game virtual currency.</li>
+                                            <li className='text-white f-32 fw-500'>Visit the Gudu Marketplace and use your Gudu Tokens to redeem prizes from the market place.</li>
+                                        </ul>
+                                    </div>
 
-                                    Earn your place on the tracks both in the streets and on the proffessional race tracks in Gudu FX. Gudu FX is available for all mobile devices
-                                    </p>
-                                    <div className='d-flex w-100'>
+                                    <div className='grid-2'>
                                         <Link to="">
                                             <img src={ process.env.PUBLIC_URL + 'assets/svg/AppStore.svg' } />
                                         </Link>
@@ -98,32 +80,10 @@ export default class Games extends React.Component {
                                         </Link>
                                     </div>
 
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className='spacing'>
-                            <div className='grid-2 column-gap-lg'>
-                                <div className='grid-3-row mt-5'>
-
-                                    <h1 className='header-lg text-white has-underline underline-gradient'>Gudu Smash</h1>
-                                    <p className='text-white f-32 fw-500'>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus gravida orci felis, vitae hendrerit lacus molestie eu. Integer quis turpis sed magna blandit sollicitudin. Proin non pharetra mauris. Cras eu metus lobortis, euismod mauris sit amet, dictum nunc. Vivamus ultrices nisl felis, sed posuere massa pretium at. Proin at risus non augue dignissim iaculis. Integer semper tellus a ipsum lacinia, vulputate tristique sapien facilisis.<br></br><br></br>
-
-                                    Smash viruses and earn rewards in our endless smash game. Interact with the world of virology and have fun. Gudu Smash is available on mobile. 
-                                    </p>
-                                    <div className='d-flex w-100'>
-                                        <Link to="">
-                                            <img src={ process.env.PUBLIC_URL + 'assets/svg/AppStore.svg' } />
-                                        </Link>
-                                        <Link to="">
-                                            <img src={ process.env.PUBLIC_URL + 'assets/svg/PlayStore.svg' } />
-                                        </Link>
-                                    </div>
 
                                 </div>
                                 
-                                <VideoContainer videoUrl="Cartoon Crush - Android Game Trailer - Eggs Portrait.mp4" className="justify-self-lg-end" />
+                                <VideoContainer videoUrl="Need for Speed Heat Official Launch Trailer.mp4" className="justify-self-lg-end"/>
 
                             </div>
                         </div>

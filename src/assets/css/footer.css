@@ -11,9 +11,19 @@ footer .layout-width .grid-3-col {
 }
 footer .layout-width .grid-3-col .footer-logo {
   height: fit-content;
+  margin-bottom: 5.5rem;
+  width: 50%;
+}
+@media screen and (max-width: 1367px) {
+  footer .layout-width .grid-3-col .footer-logo {
+    width: 40%;
+  }
 }
 footer .layout-width .grid-3-col .social-media-handles {
   margin-top: 1.5rem;
+}
+footer .layout-width .grid-3-col .social-media-handles a img {
+  width: 80%;
 }
 footer .layout-width .grid-3-col .social-media-handles a:not(:first-child) {
   margin-left: 3.125rem;

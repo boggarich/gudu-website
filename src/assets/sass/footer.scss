@@ -18,13 +18,29 @@ footer {
 
             .footer-logo {
                 height: fit-content;
+                margin-bottom: 5.5rem;
+                width: 50%;
+
+                @media screen and (max-width: 1367px) {
+                    width: 40%;
+                }
             }
 
             .social-media-handles {
                 margin-top: 1.5rem;
 
-                a:not(:first-child) {
-                    margin-left: 3.125rem;
+                
+
+                a {
+
+                    img {
+                        width: 80%;
+                    }
+                
+                    &:not(:first-child) {
+                        margin-left: 3.125rem;
+                    }
+
                 }
             }
 

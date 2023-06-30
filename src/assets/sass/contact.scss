@@ -1,0 +1,29 @@
+.page-content {
+    &.contact {
+        
+        section {
+            &.section-1 {
+
+                .layout-width {
+                    padding-top: 8rem;
+                    padding-bottom: 15rem;
+
+                    .form-control {
+                        
+                    }
+
+                    button {
+                        margin-top: 0.5rem;
+                    }
+
+                    svg {
+                        margin-right: 0.425rem;
+                        height: 40px;
+                    }
+                }
+               
+            }
+        }
+
+    }
+}

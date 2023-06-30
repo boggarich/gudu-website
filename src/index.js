@@ -15,45 +15,27 @@ import MainLayout from './views/layouts/main';
 import Home from './views/home';
 import About from './views/about';
 import Games from './views/games';
+import OurVision from './views/our-vision';
+import Sponsors from './views/sponsors';
+import Contact from './views/contact';
 
-import Arena from './views/arena/arena';
-import GuduRun from './views/arena/gudu-run';
-import GuduWar from './views/arena/gudu-war';
-import GuduFx from './views/arena/gudu-fx';
-import GuduSmash from './views/arena/gudu-smash';
-
-// import GameCenter from './views/game-center';
 
 const router = createBrowserRouter([
     {
         path: '/',
         element: <MainLayout />,
         children: [
-            // {
-            //     path: 'game-centers',
-            //     element: <GameCenter />
-            // },
             {
-                path: 'arena',
-                element: <Arena />,
-                children: [
-                    {
-                        path: 'gudu-smash',
-                        element: <GuduSmash />
-                    },
-                    {
-                        path: 'gudu-fx',
-                        element: <GuduFx />
-                    },
-                    {
-                        path: 'gudu-war',
-                        element: <GuduWar />
-                    },
-                    {
-                        path: 'gudu-run',
-                        element: <GuduRun />
-                    }
-                ]
+                path: 'contact',
+                element: <Contact />
+            },
+            {
+                path: 'sponsors',
+                element: <Sponsors />
+            },
+            {
+                path: 'our-vision',
+                element: <OurVision />
             },
             {
                 path: 'games',

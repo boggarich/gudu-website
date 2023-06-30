@@ -1,0 +1,11 @@
+.page-content.contact section.section-1 .layout-width {
+  padding-top: 8rem;
+  padding-bottom: 15rem;
+}
+.page-content.contact section.section-1 .layout-width button {
+  margin-top: 0.5rem;
+}
+.page-content.contact section.section-1 .layout-width svg {
+  margin-right: 0.425rem;
+  height: 40px;
+}

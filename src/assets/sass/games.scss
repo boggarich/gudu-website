@@ -5,22 +5,37 @@
         .section-1 {
             .layout-width {
                 padding-top: 6rem;
-                padding-bottom: 32rem;
+                padding-bottom: 13rem;
 
                 .spacing {
                     margin-top: 12rem;
 
                     .grid-3-row {
                         > div {
-                            display: flex;
-                            justify-content: space-between;
+
+                            ul {
+                                padding-left: 2.5rem !important;
+
+                                li {
+                                    margin-bottom: 1.825rem;
+                                }
+                            }
 
                             a {
-                                @media screen and (max-height: 899px) {
-                                    &:first-child {
-                                        margin-right: 3rem;
+                                &:last-child {
+                                    img {
+                                        width: 220px;
                                     }
                                 }
+
+                                &:first-child {
+                                    margin-right: 3rem;
+
+                                    img {
+                                        width: 180px;
+                                    }
+                                }
+                                
                             }
                         }
                     }

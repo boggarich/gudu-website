@@ -1,0 +1,15 @@
+.page-content.sponsors section.section-2 .layout-width {
+  padding-top: 2rem;
+  padding-bottom: 16rem;
+}
+.page-content.sponsors section.section-2 .layout-width .grid-3-col {
+  place-items: center;
+}
+.page-content.sponsors section.section-2 .layout-width img {
+  height: 160px;
+  width: 160px;
+  object-fit: contain;
+}
+.page-content.sponsors section.section-1 .layout-width {
+  padding-top: 8rem;
+}

@@ -13,18 +13,24 @@ export default class Footer extends React.Component {
                 <div className='layout-width'>
 
                     <div className='grid-3-col'>
-                        <img src={ process.env.PUBLIC_URL + '/assets/img/GUDUlogo3.png' } alt="gudu logo" className='footer-logo' />
+                        <div className="mb-5 mb-lg-0"> 
+                            <img src={ process.env.PUBLIC_URL + '/assets/img/GUDUlogo3.png' } alt="gudu logo" className='footer-logo' />
+                            <p className='f-24 fw-400 text-white mb-0'>Gudu Studios Ltd</p>
+                            <p className='f-24 fw-400 text-white mb-0'>20 1st Ringway Estate.</p>
+                            <p className='f-24 fw-400 text-white mb-0'>Osu, Accra.</p>
+                            <p className='f-24 fw-400 text-white mb-0'>Ghana, West Africa.</p>
+                        </div>
                         <ul>
                             <li className='f-32 fw-600 text-white'><Link to="/about" reloadDocument>About</Link></li>
                             <li className='f-32 fw-600 text-white'><Link to="/games" reloadDocument>Games</Link></li>
-                            <li className='f-32 fw-600 text-white'><Link to="/contact">Contact</Link></li>
+                            <li className='f-32 fw-600 text-white'><Link to="/contact" reloadDocument>Contact</Link></li>
                         </ul>
                         <div>
                             <h4 className='f-32 fw-600 text-yellow'>Follow us on:</h4>
                             <div className='d-flex social-media-handles'>
-                                <a href=""><img src={ process.env.PUBLIC_URL + "/assets/svg/twitter1.svg" } alt="twitter logo" /></a>
-                                <a href=""><img src={ process.env.PUBLIC_URL + "/assets/svg/instagram1.svg" } alt="instagram logo" /></a>
                                 <a href=""><img src={ process.env.PUBLIC_URL + "/assets/svg/facebook1.svg" } alt="facebook logo" /></a>
+                                <a href=""><img src={ process.env.PUBLIC_URL + "/assets/svg/twitter1.svg" } alt="twitter logo" /></a>
+                                <a href=""><img src={ process.env.PUBLIC_URL + "/assets/svg/youtube1.svg" } alt="youtube logo" /></a>
                             </div>
                         </div>
                     </div>
@@ -42,9 +48,9 @@ export default class Footer extends React.Component {
                     </p>
 
                     <div className='d-flex justify-content-center w-100'>
-                        <Link className='text-white text-underline'>Privacy Notice</Link>
-                        <Link className='text-white text-underline ms-5'>Terms of Service</Link>
-                        <Link className='text-white text-underline ms-5'>Code of conduct</Link>
+                        <Link className='text-white text-underline f-16'>Privacy Notice</Link>
+                        <Link className='text-white text-underline ms-5 f-16'>Terms of Service</Link>
+                        <Link className='text-white text-underline ms-5 f-16'>Code of conduct</Link>
                     </div>
 
                 </div>

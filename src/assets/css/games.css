@@ -3,19 +3,25 @@
 }
 .page-content.games .section-1 .layout-width {
   padding-top: 6rem;
-  padding-bottom: 32rem;
+  padding-bottom: 13rem;
 }
 .page-content.games .section-1 .layout-width .spacing {
   margin-top: 12rem;
 }
-.page-content.games .section-1 .layout-width .spacing .grid-3-row > div {
-  display: flex;
-  justify-content: space-between;
+.page-content.games .section-1 .layout-width .spacing .grid-3-row > div ul {
+  padding-left: 2.5rem !important;
 }
-@media screen and (max-height: 899px) {
-  .page-content.games .section-1 .layout-width .spacing .grid-3-row > div a:first-child {
-    margin-right: 3rem;
-  }
+.page-content.games .section-1 .layout-width .spacing .grid-3-row > div ul li {
+  margin-bottom: 1.825rem;
+}
+.page-content.games .section-1 .layout-width .spacing .grid-3-row > div a:last-child img {
+  width: 220px;
+}
+.page-content.games .section-1 .layout-width .spacing .grid-3-row > div a:first-child {
+  margin-right: 3rem;
+}
+.page-content.games .section-1 .layout-width .spacing .grid-3-row > div a:first-child img {
+  width: 180px;
 }
 .page-content.games .section-1 .layout-width .spacing:nth-child(2) {
   margin-top: 5rem;

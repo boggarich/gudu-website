@@ -2,6 +2,26 @@
   padding-top: 15rem;
   padding-bottom: 18rem;
 }
+.page-content.home .section-4 .layout-width .slick-slider {
+  margin-top: 1rem;
+}
+.page-content.home .section-4 .layout-width .slick-slide img {
+  object-fit: scale-down;
+  width: 100px;
+  height: 100px;
+}
+@media screen and (max-width: 1367px) {
+  .page-content.home .section-4 .layout-width .slick-slide img {
+    height: 160px;
+    width: 160px;
+  }
+}
+@media screen and (min-width: 1368px) {
+  .page-content.home .section-4 .layout-width .slick-slide img {
+    height: 200px;
+    width: 200px;
+  }
+}
 .page-content.home .section-4 .layout-width .icon {
   margin-left: 2.5rem;
 }
