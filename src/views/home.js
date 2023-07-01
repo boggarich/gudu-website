@@ -58,13 +58,13 @@ export default class Home extends React.Component {
                                 
                             <Slider {...settingsPageHero}>
                                 <div className="w-100">
-                                    <h1 className='page-hero-header'>We Build <span className='text-yellow'>Games</span> everyone can enjoy</h1>
+                                    <h1 className='page-hero-header'>We build <span className='text-yellow'>Games</span> everyone can enjoy</h1>
                                 </div>
                                 <div className="w-100">
-                                    <h1 className='page-hero-header'>We Build <span className='text-yellow'>Games</span> everyone can enjoy</h1>
+                                    <h1 className='page-hero-header'>We build <span className='text-yellow'>Games</span> everyone can enjoy</h1>
                                 </div>
                                 <div className="w-100">
-                                    <h1 className='page-hero-header'>We Build <span className='text-yellow'>Games</span> everyone can enjoy</h1>
+                                    <h1 className='page-hero-header'>We build <span className='text-yellow'>Games</span> everyone can enjoy</h1>
                                 </div>
                             </Slider>
 

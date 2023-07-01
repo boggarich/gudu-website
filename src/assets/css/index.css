@@ -326,6 +326,11 @@ table thead th {
   z-index: 1;
   filter: blur(2px);
 }
+@media screen and (max-width: 401px) {
+  .image-container {
+    width: 100% !important;
+  }
+}
 @media screen and (max-width: 1367px) {
   .image-container {
     width: 387px;
@@ -386,6 +391,11 @@ table thead th {
   border-radius: 50px;
   z-index: 1;
   filter: blur(2px);
+}
+@media screen and (max-width: 401px) {
+  .video-container {
+    width: 100% !important;
+  }
 }
 @media screen and (max-width: 1367px) {
   .video-container {
@@ -659,12 +669,15 @@ div.has-underline::after {
 .page-hero .content {
   display: flex;
   background-color: transparent;
-  align-items: end;
   z-index: 2;
   position: relative;
-  clip-path: polygon(evenodd, 0% 0%, 100% 0%, 100% 63%, 100% 67.25%, 100% 72.48%, 97.54% 77.1%, 93.69% 81.44%, 89.08% 85.32%, 84.77% 89.51%, 78.31% 93.45%, 71.09% 96.36%, 63.5% 98.1%, 55.49% 99.45%, 43.14% 99.45%, 34.64% 98.1%, 29.7% 96.36%, 20.68% 93.2%, 13.92% 88.41%, 8.56% 84.9%, 4.54% 79.92%, 1.74% 76.46%, 0% 72.48%, 0% 65.89%);
   min-height: 834px;
   justify-content: center;
+}
+@media screen and (min-width: 401px) {
+  .page-hero .content {
+    clip-path: polygon(evenodd, 0% 0%, 100% 0%, 100% 63%, 100% 67.25%, 100% 72.48%, 97.54% 77.1%, 93.69% 81.44%, 89.08% 85.32%, 84.77% 89.51%, 78.31% 93.45%, 71.09% 96.36%, 63.5% 98.1%, 55.49% 99.45%, 43.14% 99.45%, 34.64% 98.1%, 29.7% 96.36%, 20.68% 93.2%, 13.92% 88.41%, 8.56% 84.9%, 4.54% 79.92%, 1.74% 76.46%, 0% 72.48%, 0% 65.89%);
+  }
 }
 .page-hero .content::after {
   content: "";
@@ -677,9 +690,12 @@ div.has-underline::after {
   z-index: 1;
 }
 .page-hero .content .layout-width {
-  margin-bottom: 28%;
   margin-left: 0px;
   margin-right: 0px;
+}
+.page-hero .content .layout-width .page-hero-header {
+  margin-top: calc(100vh - 300px) !important;
+  margin-bottom: 0px !important;
 }
 
 .layout-width {

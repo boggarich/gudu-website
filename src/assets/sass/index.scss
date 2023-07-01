@@ -813,7 +813,6 @@ div {
     .content {
         display: flex;
         background-color: transparent;
-        align-items: end;
         z-index: 2;
         position: relative;
         min-height: 834px;
@@ -835,9 +834,13 @@ div {
         }
 
         .layout-width {
-            margin-bottom: 28%;
             margin-left: 0px;
             margin-right: 0px;
+
+            .page-hero-header {
+                margin-top: calc(100vh - 300px) !important;
+                margin-bottom: 0px !important;
+            }
         }
 
     }

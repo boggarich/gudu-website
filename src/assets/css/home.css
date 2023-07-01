@@ -1,3 +1,15 @@
+.page-content.home .slick-dots {
+  bottom: -60px;
+}
+.page-content.home .slick-dots li button:before {
+  opacity: 0.3;
+  color: #ffffff;
+  font-size: 16px;
+}
+.page-content.home .slick-dots li.slick-active button:before {
+  opacity: 1;
+  color: #fff;
+}
 .page-content.home .section-4 .layout-width {
   padding-top: 15rem;
   padding-bottom: 18rem;
@@ -9,6 +21,12 @@
   object-fit: scale-down;
   width: 100px;
   height: 100px;
+}
+@media screen and (max-width: 401px) {
+  .page-content.home .section-4 .layout-width .slick-slide img {
+    height: 60px !important;
+    width: 60px !important;
+  }
 }
 @media screen and (max-width: 1367px) {
   .page-content.home .section-4 .layout-width .slick-slide img {
